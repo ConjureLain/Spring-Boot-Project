@@ -16,4 +16,5 @@ initial-data-users.sql
 Go to localhost:8080
 
 For Employee, Username:employee  Password:employee
+
 For Manager, Username:manager  Password:manager
