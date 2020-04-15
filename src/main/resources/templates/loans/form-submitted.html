@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Success</title>
+    <div th:replace="fragments/head :: head"></div>
+</head>
+
+<body>
+<div th:replace="fragments/login-dropdown-list :: login-dropdown-list"></div>
+
+<h5 align="center" class="custom-font">
+    <p>Success! You have fulfilled a mortage form successfully.
+    <p>
+    <p>Thank you for contacting us. We will respond to you within 24 hours.</p>
+    <p>For urgent inquiries please call us today! +48800800800</p>
+    <p>If you want to submit new mortgage form click <a th:href="@{/loans/new-form}">here</a>.</p>
+</h5>
+<div th:replace="fragments/dropdown-list-js :: dropdown-list-js"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
