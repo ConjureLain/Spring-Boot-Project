@@ -1,3 +1,5 @@
+This Web Application helps users to creat, update, delete, search profiles from database.
+
 This project contains technologies:
 - Spring Boot 2
 - Java 11
